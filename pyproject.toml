@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "checksum-fixity-cli"
+version = "0.1.0"
+description = "Local, read-only checksum and fixity operations for archival files"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Proprietary" }
+authors = [{ name = "Matthew Bruton", email = "matthewbrutonall@gmail.com" }]
+keywords = ["archives", "checksums", "fixity", "digital-preservation"]
+
+[project.scripts]
+fixity = "checksum_fixity_cli.cli:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
