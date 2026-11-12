@@ -15,6 +15,14 @@ The tool is read-only. It does not upload files, follow symbolic links, or silen
 
 A checksum match confirms bit-level agreement with the expected value. It does not prove provenance or authenticity.
 
+## Install with your AI agent
+
+Copy and paste this into your agent:
+
+```text
+Install the Checksum / Fixity CLI from https://github.com/matthewbrutonall/checksum-fixity-cli on my computer. Check that Python 3.10 or later is available, create a virtual environment, install the package from the repository, and verify that `fixity --help` works. Tell me how to run it. Do not hash or inspect my files yet.
+```
+
 ## Install
 
 Requires Python 3.10 or later.
