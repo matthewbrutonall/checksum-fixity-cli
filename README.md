@@ -1,5 +1,7 @@
 # Checksum / Fixity CLI
 
+![Terminal checking file hashes against a manifest and flagging a discrepancy](assets/checksum-fixity-cli.png)
+
 A local command-line tool for creating and checking file checksums.
 
 It can:
